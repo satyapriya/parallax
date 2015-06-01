@@ -1,0 +1,49 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+body, html{
+    height: 100%!important;
+    width: 100%;
+    margin: 0; 
+}
+section {
+  min-width: 960px;
+  /*opacity: 0;*/
+  height: 100vh;
+}
+.bcg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.hsContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.hsContent {
+  max-width: 700px;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+.text-center{
+    text-align: center;
+}
+.section-content{
+    display: table;
+    height: 100%;
+    width:100%;
+}
+.section-inner-contnet{
+    padding: 4rem 4rem;
+    display: table-cell;
+    vertical-align: middle;
+}
+#slide-1 .bcg {  background-image: url('../img/1.jpg');}
+#slide-2 .bcg {  background-image: url('../img/2.jpg');}
+#slide-3 .bcg {  background-image: url('../img/3.jpg');}
